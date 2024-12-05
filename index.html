@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>BarberShop</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-scissors-line"></i> BarberShop
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Book an Appointment <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-calendar-check-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Book Now</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Haircuts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Beard Grooming</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Full Package</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-time-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Our Hours</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Monday - Friday: 9 AM - 7 PM</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Saturday: 9 AM - 5 PM</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Sunday: Closed</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav__link">Pricing</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Our Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-scissors-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Haircuts</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Classic Cut</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Fade Cut</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Buzz Cut</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-brush-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Styling</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Pompadour Style</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Textured Style</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Slick Back</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            About Us <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-community-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Our Story</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Who We Are</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Our Mission</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Testimonials</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-phone-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Contact</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Phone</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Email</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Social Media</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+  
+    
+    <section class="hero">
+        <video autoplay loop muted>
+            <source src="videoplayback.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-text">
+            <h1>Where Style Meets Precision</h1>
+            <p>Experience top-tier grooming tailored just for you.</p>
+            <button class="btn-1">Book an Appointment</button>
+        </div>
+    </section>
+    <div id="moving-text-section">
+        <p class="moving-text">Welcome to our Barber Shop! Experience the best haircuts and grooming services in town!</p>
+      </div>
+    <section class="section__container">
+        <h2>Testimonials</h2>
+        <h1>What our customers say</h1>
+        <div class="section__grid">
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>A Cut Above the Rest!</h4>
+            <p>
+                The barbers here are amazing! They gave me the exact look I wanted. Professional, friendly, and skilled. I'll definitely come back!
+            </p>
+            <img src="user-1.jpg" alt="user" />
+            <h5>Allan Collins</h5>
+            <h6>Regular Customer</h6>
+          </div>
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>Exceptional Service and Style!</h4>
+            <p>
+                From the moment I walked in, I felt welcomed. They know their craft and made sure I left looking and feeling great. Highly recommended!
+            </p>
+            <img src="user-2.jpg" alt="user" />
+            <h5>Tanya Grant</h5>
+            <h6>Satisfied Client</h6>
+          </div>
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>The Best Barbershop Experience!</h4>
+            <p>
+                Clean, stylish, and efficient! The team here not only gave me a great haircut but also great grooming advice. A true hassle-free experience!
+            </p>
+            <img src="user-3.jpg" alt="user" />
+            <h5>Clay Washington</h5>
+            <h6>First-Time Visitor</h6>
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation-section">
+        <h2>Make a Reservation</h2>
+        <p>Fill out the form below to book an appointment with us.</p>
+        
+        <form action="#" method="post" class="reservation-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="phone">Your Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="service">Select Service</label> 
+                <select id="service" name="service" required>
+                    <option value="haircut">Haircut</option>
+                    <option value="beard">Beard Grooming</option>
+                    <option value="full-package">Full Package</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+    
+            <button type="submit" class="btn-1">Submit Reservation</button>
+        </form>
+    </section>
+    
+      
+
+      
+
+
+    <section class="location-section">
+        
+        <div class="box">
+        <h1>Our Location</h1>
+        <p>
+            Visit us in the heart of Casablanca! Our barbershop offers a warm and welcoming atmosphere where tradition meets modern style. Whether you're here for a classic cut, a fresh fade, or just to relax, our skilled barbers are ready to provide exceptional service. We can't wait to see you!
+          </p>
+          
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106376.56000726722!2d-7.669394357975222!3d33.57240323261632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!5e0!3m2!1sfr!2sma!4v1733412356646!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+
+   </section>
+
+
+  
+
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <i class="fas fa-cogs"></i> <span>Barber Shop</span>
+      </div>
+      <ul class="footer__links">
+        <li><a href="#about" class="footer__link">About Us</a></li>
+        <li><a href="#services" class="footer__link">Services</a></li>
+        <li><a href="#contact" class="footer__link">Contact</a></li>
+        <li><a href="#privacy" class="footer__link">Privacy Policy</a></li>
+      </ul>
+      
+    </div>
+  </footer>
+   
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+
+</html>
